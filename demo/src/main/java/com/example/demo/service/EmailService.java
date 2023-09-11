@@ -1,2 +1,8 @@
-package com.example.demo.service;public interface EmailService {
+package com.example.demo.service;
+
+import com.example.demo.dto.EmailDetails;
+
+public interface EmailService {
+
+    void sendEmailAlert(EmailDetails emailDetails);
 }
